@@ -1,0 +1,132 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    background-image: url("https://wallpaperaccess.com/full/31367.jpg");
+  
+
+    min-height: 100%;
+    width: auto;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+
+  }
+
+  .container .box{
+    width: 21em;
+    height: 7em;
+    margin: 100px;
+    border-radius: 1em;
+    border: solid 2px #ff5c34;
+    align-self: flex-end;
+    background-color: lightcoral;
+    opacity: 50%;
+    text-align: center;
+
+  }
+
+  button{
+    background:#151b29;
+    color:#ffa260 ;
+    border:2px solid;
+    padding: 1em 2em;
+    font-size: .75em;
+    transition: color 0.25s, boder-color 0.25s,box-shadow 0.25s, transform 0.25s;
+    /* animation: rotate 60s infinite steps(60); */
+    
+   
+} 
+
+button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform:translateY(-0.25em);
+    cursor: pointer;
+}
+
+.container2{
+height: 100%;
+background: lightyellow;
+display: flex;
+justify-content: center;
+}
+
+
+
+
+.container2 .clock{
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    margin-left: -4px;
+
+    margin-top: 125px
+    
+}
+
+
+.container2 img:nth-child(2){
+    height: 65px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    margin-left: 60px;
+    /* margin-right: auto; */
+    margin-top: 242px;
+    transform-origin: left center;
+    /* border: 2px solid red; */
+    transform: rotate(-90deg);
+
+    animation: rotate 10s infinite linear;
+}
+
+.container2 img:nth-child(3){
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    margin-left: 45px;
+
+    margin-top: 250px;
+    transform-origin: left center;
+    /* transform: rotate(-90deg); */
+    animation: rotate30 10s infinite linear;
+    padding-bottom: -20px;
+
+}
+
+
+  @media (max-width: 1000px) {
+    .container {
+        justify-content: center;
+    }
+
+    .container .box {
+        align-self: center;
+    }
+
+}
+
+@keyframes rotate {
+    100% {
+      /* transform-origin: left center; */
+      transform: rotateZ(270deg);
+    }
+  }
+
+  @keyframes rotate30 {
+    100% {
+      /* transform-origin: left center; */
+      transform: rotateZ(30deg);
+    }
+  }
