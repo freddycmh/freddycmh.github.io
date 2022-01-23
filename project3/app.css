@@ -1,0 +1,210 @@
+body
+{
+  background-color: #F4989C;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  font-family: Gill Sans, sans-serif;
+  animation: imgdsn 4s 1s;
+}
+
+
+
+
+.heading
+{
+  text-align: center;
+}
+.MainC 
+{
+  animation: color-animation 4s linear infinite;
+}
+
+.color-1 
+{
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.color-2 
+{
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.color-3 
+{
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+
+@keyframes color-animation 
+{
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+.Hsub2
+{
+  font-size: 20px;
+}
+
+
+
+
+
+
+.Box
+{
+  background-color: white;
+  height: 700px;
+  width: 100%;
+  border-radius: 1em;
+}
+.Firstbox
+{
+  height: 15%;
+}
+
+.scorebox
+{
+  background-color: #ACECF7;
+  width: 150px;
+  border-radius: 1em;
+  text-align: center;
+  float: left;
+  margin: 1%;
+}
+
+.resetbtn
+{
+  float: right;
+  margin-right: 35px;
+  margin-top: 20px;
+}
+
+.button
+{
+  border: 2px solid #ACECF7;
+  background-color: #ACECF7;
+  padding: 30%;
+  border-radius: 1em;
+  text-decoration: none;
+}
+
+.button:hover
+{
+  background-color: #F4989C;
+}
+
+
+
+
+
+
+
+.centerpic
+{
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right:10%;
+  border-radius: 2em;
+  width: auto;
+  height: 65%;
+  background-color: #E3C3A9;
+  position: relative;
+  box-shadow: 5px 5px #ACECF7;
+}
+
+.imgdsg
+{
+  position: absolute;
+  width: 100%;
+}
+
+.imgdsg img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+
+.middle
+{
+  text-align: center;
+  margin-left: 34%;
+  margin-right: 25%;
+  position: absolute;
+  top: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.GTheN
+{
+  padding: 10%;
+  border-radius: 3em;
+  border: 2px solid #E3C3A9;
+  box-shadow: 0px 0px 10px #E3C3A9;
+}
+
+.Checkbtn
+{
+  text-align: center;
+  margin-left: 45%;
+  margin-right: 40%;
+  position: absolute;
+  top: 65%;
+  padding: 2%;
+  border-radius: 3em;
+  border: 2px solid #E3C3A9;
+  background-color: #D6F6DD;
+}
+
+.Checkbtn:hover
+{
+  background-color: lightpink;
+}
+
+
+
+
+.GuessHis
+{
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid #ACECF7;
+  background-color: #ACECF7;
+  border-radius: 1em;
+  box-shadow: 2px 2px lightgray;
+  padding-left: 2%;
+}
+
+.WarningTXT
+{
+  position: absolute; 
+ text-align: center;
+ bottom: 0;
+ width: 100%;
+}
+
+@keyframes imgdsn {
+  0% {transform: scale(0);}
+  100%{transform: scale(1);}
+}
