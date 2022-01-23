@@ -27,7 +27,7 @@ let vida = 10;
 
 
 
-alert(randomNumber)
+console.log(randomNumber);
 
 // INPUT
 
