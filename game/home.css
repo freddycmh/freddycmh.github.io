@@ -1,0 +1,119 @@
+body{
+    /* background-color: white; */
+    background-image: url("https://media1.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+a {
+    background:#151b29;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: .75em;
+    transition: color 0.25s, boder-color 0.25s,box-shadow 0.25s, transform 0.25s;
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+  a:hover {
+    border-color: #f1ff5c;
+    color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    cursor: pointer;
+  }
+
+
+  
+
+
+.box img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    align-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 2em;
+}
+
+.box{
+    /* background: lightcoral; */
+    width: 95%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 2em;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow-x: scroll;
+}
+
+.box div{
+    color: white;
+    background: rgba(21, 27, 41, .8);
+    /* opacity: 0.8; */
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 400px;
+    border-radius: .75em;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 4px 5px #888888; */
+    /* box-shadow: -12px 12px 3px -5px #f1ff5c; */
+    margin-top:30px;
+
+
+
+}
+
+
+
+p{
+text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+   
+
+
+  
+
+  figcaption{
+      text-decoration: underline red 2px;
+  }
+
+  hr{
+      width: 80%;
+  }
+  
+  h2{
+      margin-top: 5%;
+      text-align: center;
+  }
+
+  .box::-webkit-scrollbar {
+    display: none;
+}
+
+.footer::-webkit-scrollbar {
+  display: none;
+}

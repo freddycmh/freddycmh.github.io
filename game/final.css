@@ -1,0 +1,156 @@
+@import url('http://fonts.cdnfonts.com/css/games');
+
+body
+{
+  min-width: 25%;
+  background-image: url("gamebckg2.gif");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+.header
+{
+    font-family: 'Games', sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 2%;
+}
+
+
+
+
+
+.LoginPage
+{
+  height: 610px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+
+
+
+
+
+.Player1
+{
+  height: 35%;
+  padding: 3%;
+  padding-top: 10%;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 1em;
+  text-align: center;
+  font-family: 'Games', sans-serif;
+  animation: PAnimation 6s 1s;
+  background-color: black;
+  color:white;
+}
+.Player1:hover
+{
+    background-image: url("game.gif");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.Player1 input
+{
+  border-radius: 2em;
+  text-align: center;
+  font-family:
+}
+.Player1 input:hover
+{
+  font-size: 15px;
+  background-color: transparent;
+  box-shadow: 2px 2px 4px;
+  color: black;
+}
+
+
+
+
+
+.Player2
+{
+  height: 35%;
+  padding: 3%;
+  padding-top: 10%;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 1em;
+  text-align: center;
+  font-family: 'Games', sans-serif;
+  animation: PAnimation 6s 1s;
+  background-color: black;
+  color:white;
+}
+
+.Player2:hover
+{
+    background-image: url("mario.gif");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.Player2 input
+{
+  border-radius: 2em;
+  text-align: center;
+}
+.Player2 input:hover
+{
+  font-size: 15px;
+  background-color: transparent;
+  box-shadow: 2px 2px 4px;
+  color: black;
+}
+@keyframes PAnimation
+{
+  0% {transform: scale(0);}
+  100%{transform: scale(1);}
+}
+
+
+
+
+.btn
+{
+  padding-bottom: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.btn button
+{
+  border-radius: 1em;
+  background-color: transparent;
+  padding: 3%;
+  text-decoration: none;
+  font-family: 'Games', sans-serif;
+  color:white;
+}
+.button:active
+{
+  background-color: #3e8e41;
+  box-shadow: 10px 10px #666;
+  transform: translateY(4px);
+}
+
+.btn button:hover
+{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+h2
+{
+  color:white;
+}

@@ -1,0 +1,89 @@
+.down{
+    border-bottom: 2px solid white;
+  }
+  
+  
+  
+   /* .sq2 a{
+    all: unset;
+  } */
+  
+  i{
+    color: white;
+    margin-left: 2%;
+    }
+  
+  .letter{
+  color: white;
+  }
+  
+/* a{
+  text-decoration: none;
+   color: white;
+} */
+  
+  
+  
+  
+  .medium{
+  font-size: .9em;
+  }
+  .small{
+  font-size: .5em;
+  color: grey;
+  }
+  
+  .sq{
+    height: 100px;
+    width: 80%;
+       /* border: 2px solid red; */
+       margin-left:1%;
+       box-sizing: border-box;
+       margin:0 auto;
+       background-color: #151b29;
+  }
+  
+  .sq div{
+    width:25%;
+    height:100%;
+    /* border: 2px solid blue; */
+    float:left;
+    box-sizing: border-box;
+    /* justify-content: center; */
+    text-align: center;
+  }
+  
+  
+  div .sq2{
+    width:33%;
+      height:100%;
+      /* border: 2px solid blue; */
+      box-sizing: border-box;
+      float: right;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  div .sq3{
+    width:100%;
+    height:100%;
+    /* border: 2px solid blue; */
+    /* float:left; */
+    box-sizing: border-box;
+    /* justify-content: center; */
+    text-align: center;
+  }
+
+
+
+  /* EFFECTS */
+
+
+
+
+
+.down:hover{
+    cursor: pointer;
+    color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    }
